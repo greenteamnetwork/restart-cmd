@@ -1,0 +1,17 @@
+module.exports = {
+
+info(message){
+    console.log("[INFO]", message);
+},
+
+
+error(message){
+    console.log("[ERROR]", message);
+},
+
+
+success(message){
+    console.log("[OK]", message);
+}
+
+};
